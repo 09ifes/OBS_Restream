@@ -15,7 +15,6 @@
         <serenity.version>3.6.21</serenity.version>
         <serenity.maven.version>3.6.21</serenity.maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <webdriver.base.url></webdriver.base.url>
     </properties>
 
     <dependencies>
@@ -101,6 +100,22 @@
             <version>4.4.3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180130</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.5.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -154,6 +169,7 @@
             <artifactId>serenity-maven-plugin</artifactId>
             <version>${serenity.version}</version>
             <configuration>
+                <!--suppress UnresolvedMavenProperty -->
                 <tags>${tags}</tags>
             </configuration>
             <executions>

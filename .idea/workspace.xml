@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="setup, implemented pages and scenarios">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" afterDir="false" />
+    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="implemented homepage, and accessing stream key">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/runners/cucumber_serenity_runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/runners/cucumber_serenity_runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/set_OBS_stream_key.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +215,42 @@
       <option name="project" value="LOCAL" />
       <updated>1682030172397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dependencies">
+      <created>1685831216592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831216592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="configurations">
+      <created>1685831300125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831300125</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implemented feature file">
+      <created>1685831334226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831334226</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implemented login page and steps">
+      <created>1685831526924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831526925</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implemented homepage, and accessing stream key">
+      <created>1685831632023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685831632023</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +266,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup, implemented pages and scenarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup, implemented pages and scenarios" />
+    <MESSAGE value="dependencies" />
+    <MESSAGE value="configurations" />
+    <MESSAGE value="implemented feature file" />
+    <MESSAGE value="implemented login page and steps" />
+    <MESSAGE value="implemented homepage, and accessing stream key" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented homepage, and accessing stream key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,9 +282,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
