@@ -4,8 +4,6 @@ import cucumberTest.stepLib.actions.GlobalActionMethods;
 import cucumberTest.stepLib.checks.GlobalCheckMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-
-
 import java.io.IOException;
 
 public class GlobalSteps {
@@ -13,7 +11,7 @@ public class GlobalSteps {
     private final GlobalCheckMethods globalCheckMethods = new GlobalCheckMethods();
 
     @And("Add stream key to OBS")
-    public void addStreamkeyToOBS() throws IOException {
+    public void addStreamkeyToOBS() {
         globalActionMethods.editOBSJsonFile();
     }
 
