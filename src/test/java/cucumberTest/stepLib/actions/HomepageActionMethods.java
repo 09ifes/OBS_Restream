@@ -11,4 +11,13 @@ public class HomepageActionMethods {
         homePage.getStreamKey();
     }
 
+    public void openCreateAnEventPage() {
+        homePage.selectScheduleEvent();
+        homePage.selectEncoderRTMP();
+    }
+
+    public void closeRTMPSettingsModal() {
+        homePage.clickDone();
+    }
+
 }
