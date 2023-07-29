@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="implemented homepage, and accessing stream key">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/CreateEventPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/CreateAnEventPageCheckMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/CreateEditEventSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/runners/cucumber_serenity_runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumber_serenity_runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/OBS_Restream/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/OBS_Restream",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OBS_Restream" />
       <recent name="C:\OBS_Restream\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -62,10 +70,11 @@
       <recent name="C:\OBS_Restream\src\test\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="cucmberTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.cucumber_serenity_runner">
+  <component name="RunManager" selected="JUnit.CucumberTestSuite">
     <configuration name="Scenario: Set OBS Stream key" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/set_OBS_stream_key.feature" />
@@ -85,16 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cucumber_serenity_runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CucumberTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OBS_Restream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumberTest.runners.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumberTest.runners" />
-      <option name="MAIN_CLASS_NAME" value="cucumberTest.runners.cucumber_serenity_runner" />
+      <option name="PACKAGE_NAME" value="cucumberTest" />
+      <option name="MAIN_CLASS_NAME" value="cucumberTest.CucumberTestSuite" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <envs>
@@ -183,7 +192,7 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Set OBS Stream key" />
-      <item itemvalue="JUnit.cucumber_serenity_runner" />
+      <item itemvalue="JUnit.CucumberTestSuite" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG.timesheetFiller" />
       <item itemvalue="TestNG.C:/TSI/SeleniumTests/src/test/resources/TestSuites/NavbarTests.xml" />
@@ -191,7 +200,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.cucumber_serenity_runner" />
+        <item itemvalue="JUnit.CucumberTestSuite" />
         <item itemvalue="Cucumber Java.Scenario: Set OBS Stream key" />
         <item itemvalue="TestNG.timesheetFiller" />
         <item itemvalue="TestNG.C:/TSI/SeleniumTests/src/test/resources/TestSuites/NavbarTests.xml" />
@@ -250,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685831632023</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented homepage, and accessing stream key">
+      <created>1687300121040</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687300121040</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,6 +301,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
