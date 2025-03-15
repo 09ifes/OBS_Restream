@@ -3,7 +3,7 @@ package cucumberTest.stepLib.actions;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
 
 import cucumberTest.pages.LoginPage;
-import net.serenitybdd.core.Serenity;
+import utils.Configuration;
 
 public class LoginActionMethods {
 
@@ -12,8 +12,8 @@ public class LoginActionMethods {
     public void loginToRestream(String email, String password) {
         String url = "https://restream.io/login";
         loginPage.launch(url);
-        loginPage.enterEmail(email);
-        loginPage.enterPassword(password);
+        loginPage.enterEmail(Configuration.get("email"));
+        loginPage.enterPassword(Configuration.get("password"));
         loginPage.submit();
     }
 

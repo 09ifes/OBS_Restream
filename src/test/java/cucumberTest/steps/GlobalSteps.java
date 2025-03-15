@@ -4,7 +4,6 @@ import cucumberTest.stepLib.actions.GlobalActionMethods;
 import cucumberTest.stepLib.checks.GlobalCheckMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
-import java.io.IOException;
 
 public class GlobalSteps {
     private final GlobalActionMethods globalActionMethods = new GlobalActionMethods();
