@@ -1,5 +1,6 @@
 package cucumberTest;
 
+import io.cucumber.java.Before;
 import io.cucumber.junit.CucumberOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -13,7 +14,7 @@ import org.junit.runner.RunWith;
                  glue = {"cucumberTest"}
 )
 public class CucumberTestSuite {
-    @BeforeClass
+    @Before
     public static void config() {
         System.setProperty("webdriver.chrome.driver", "C:/OBS_Restream/src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
