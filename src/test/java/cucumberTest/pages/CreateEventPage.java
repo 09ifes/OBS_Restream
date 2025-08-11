@@ -9,17 +9,17 @@ import org.apache.commons.lang3.RandomStringUtils;
 public class CreateEventPage extends PageObject {
 
     @FindBy(xpath = "//div[text()='Create event']")
-    WebElementFacade createEventPageTitle;
+    protected WebElementFacade createEventPageTitle;
     @FindBy(xpath = "//input[@name='title']")
-    WebElementFacade eventTitle;
+    protected WebElementFacade eventTitle;
     @FindBy(xpath = "//textarea[@name='description']")
-    WebElementFacade eventDescription;
+    protected WebElementFacade eventDescription;
     @FindBy(xpath = "//span[text()='Next']")
-    WebElementFacade nextButton;
+    protected WebElementFacade nextButton;
     @FindBy(xpath = "//div[text()='Create Event']")
-    WebElementFacade createEventButton;
+    protected WebElementFacade createEventButton;
     @FindBy(xpath = "//div[text()='Yes']")
-    WebElementFacade yesButton;
+    protected WebElementFacade yesButton;
 
 
     public  boolean isCreateEventPageVisible() {
