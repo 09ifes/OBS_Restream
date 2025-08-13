@@ -23,43 +23,27 @@ public class CreateEventPage extends PageObject {
 
 
     public  boolean isCreateEventPageVisible() {
-        createEventPageTitle.waitUntilVisible();
-        return createEventPageTitle.isVisible();
+        return createEventPageTitle.waitUntilVisible().isVisible();
     }
 
     public void insertEventTitle(String title) {
-        eventTitle.waitUntilVisible();
-        eventTitle.sendKeys(title);
+        eventTitle.waitUntilVisible().sendKeys(title);
     }
 
     public void insertEventDescription(String description) {
-        eventDescription.waitUntilVisible();
-        eventDescription.sendKeys(description);
+        eventDescription.waitUntilVisible().sendKeys(description);
     }
 
     public void clickNext() {
-        nextButton.waitUntilClickable();
-        nextButton.click();
+        nextButton.waitUntilClickable().click();
     }
 
     public void clickYes() {
-        yesButton.waitUntilClickable();
-        yesButton.click();
+        yesButton.waitUntilClickable().click();
     }
 
     public void clickCreateEventButton() {
-        createEventButton.waitUntilVisible();
-        createEventButton.waitUntilClickable();
-        createEventButton.click();
-    }
-
-    public void createEvent() {
-        String eventTitle = "Test stream - " +  RandomStringUtils.random(6, true, true);
-        Serenity.setSessionVariable("eventTitle").to(eventTitle);
-        insertEventTitle(eventTitle);
-        insertEventDescription("Test description");
-        clickNext();
-        clickCreateEventButton();
+        createEventButton.waitUntilVisible().waitUntilClickable().click();
     }
 
 }

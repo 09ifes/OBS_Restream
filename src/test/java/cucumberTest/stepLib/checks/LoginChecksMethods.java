@@ -2,11 +2,11 @@ package cucumberTest.stepLib.checks;
 
 import cucumberTest.pages.LoginPage;
 
-import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class LoginChecksMethods {
-    LoginPage loginPage = getPages().get(LoginPage.class);
+
+    private LoginPage loginPage;
 
     public void checkLoginPageIsDisplayed() {
         assertTrue("Expected login page to display", loginPage.isLoginPageVisible());

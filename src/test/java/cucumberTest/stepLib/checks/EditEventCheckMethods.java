@@ -7,7 +7,7 @@ import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
 
 public class EditEventCheckMethods {
 
-    EditEventPage editEventPage = getPages().get(EditEventPage.class);
+    private EditEventPage editEventPage;
 
     public void checkEditEventPageIsOpen() {
         assertTrue("Edit event page not open", editEventPage.isEditEventPageOpen());

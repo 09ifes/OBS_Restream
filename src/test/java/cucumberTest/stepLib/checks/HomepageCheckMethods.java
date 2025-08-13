@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 
 public class HomepageCheckMethods {
 
-    HomePage homePage = getPages().get(HomePage.class);
+    private HomePage homePage;
 
     public void checkHomePageIsDisplayed() {
         assertTrue("Expected homepage to display", homePage.isHomePageVisible());

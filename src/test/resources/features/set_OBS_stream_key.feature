@@ -7,6 +7,11 @@ Feature: Set OBS Stream key
     And Create an event
     Then The created event should be displayed on the homepage
 
+  Scenario: Edit an event
+    Given Login to restream
+
+
+
   Scenario: Set OBS Stream key
     Given Login to restream
     And Get the stream key for the next upcoming stream

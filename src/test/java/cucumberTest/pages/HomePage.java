@@ -9,59 +9,51 @@ import java.util.List;
 public class HomePage extends PageObject {
 
     @FindBy(className = "product-menu-desktop_productMenuDesktopLogo__Al1iV")
-    WebElementFacade homepageLogo;
+    private WebElementFacade homepageLogo;
     @FindBy(xpath = ".//span[contains(text(),'RTMP Settings')]")
-    WebElementFacade rtmpSettingsButton;
+    private WebElementFacade rtmpSettingsButton;
     @FindBy(xpath = "//div[text()='RTMP settings']")
-    WebElementFacade rtmpSettingsTitle;
+    private WebElementFacade rtmpSettingsTitle;
     @FindBy(xpath = "//div[3]/div/div/div[2]/button")
-    WebElementFacade copyStreamKeyButton;
+    private WebElementFacade copyStreamKeyButton;
     @FindBy(xpath = "//div[3]/div/div/div[1]/input")
-    WebElementFacade streamKey;
+    private WebElementFacade streamKey;
     @FindBy(xpath = "//button[@aria-label='Schedule Event']")
-    WebElementFacade scheduleEventButton;
+    private WebElementFacade scheduleEventButton;
     @FindBy(xpath = "//ul[@class='ConcurrentEventsList_listWrapper__10U97']")
-    WebElementFacade scheduledEvents;
+    private WebElementFacade scheduledEvents;
     @FindBy(xpath = "//div[contains(text(),'Encoder | RTMP')]")
-    WebElementFacade encoderRTMPButton;
+    private WebElementFacade encoderRTMPButton;
     @FindBy(xpath = "//div[text()='Done']")
-    WebElementFacade doneButton;
+    private WebElementFacade doneButton;
 
     public boolean isHomePageVisible() {
-        homepageLogo.waitUntilVisible();
-        return homepageLogo.isVisible();
+        return homepageLogo.waitUntilVisible().isVisible();
     }
 
     public boolean isRTMPSettingsTitleVisible() {
-        rtmpSettingsTitle.waitUntilVisible();
-        return rtmpSettingsTitle.isVisible();
+        return rtmpSettingsTitle.waitUntilVisible().isVisible();
     }
 
     public void getStreamKey() {
-        rtmpSettingsButton.waitUntilClickable();
-        rtmpSettingsButton.click();
+        rtmpSettingsButton.waitUntilClickable().click();
         Serenity.setSessionVariable("streamKey").to(streamKey.getAttribute("value"));
     }
 
     public void selectScheduleEvent() {
-        scheduleEventButton.waitUntilClickable();
-        scheduleEventButton.click();
+        scheduleEventButton.waitUntilClickable().click();
     }
 
     public void selectEncoderRTMP() {
-        encoderRTMPButton.waitUntilVisible();
-        encoderRTMPButton.waitUntilClickable();
-        encoderRTMPButton.click();
+        encoderRTMPButton.waitUntilVisible().waitUntilClickable().click();
     }
 
     public void clickDone() {
-        doneButton.waitUntilClickable();
-        doneButton.click();
+        doneButton.waitUntilClickable().click();
     }
 
     public List<WebElementFacade> getScheduledEvents() {
-        scheduledEvents.waitUntilVisible();
-        return scheduledEvents.thenFindAll("li");
+        return scheduledEvents.waitUntilVisible().thenFindAll("li");
     }
 
 }

@@ -17,26 +17,22 @@ public class EditEventPage extends CreateEventPage {
     private WebElementFacade saveButton;
 
     public void editEventTitle(String title) {
-        eventTitle.waitUntilVisible();
-        eventTitle.clear();
+        eventTitle.waitUntilVisible().clear();
         eventTitle.sendKeys(title);
     }
 
     public void editEventDescription(String description) {
-        eventDescription.waitUntilVisible();
-        eventDescription.clear();
+        eventDescription.waitUntilVisible().clear();
         eventDescription.sendKeys(description);
     }
 
     public void clickSaveButton() {
-        saveButton.waitUntilVisible();
-        saveButton.waitUntilClickable();
-        saveButton.click();
+        saveButton.waitUntilVisible().waitUntilClickable().click();
     }
 
     public boolean isEditEventPageOpen() {
-        editEventHeading.waitUntilVisible();
-        editButton.waitUntilVisible();
+        editEventHeading.waitUntilVisible().isVisible();
+        editButton.waitUntilVisible().isVisible();
         return true;
     }
 

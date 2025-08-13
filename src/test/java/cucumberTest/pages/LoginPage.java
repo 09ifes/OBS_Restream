@@ -6,13 +6,13 @@ import net.serenitybdd.core.pages.WebElementFacade;
 
 public class LoginPage extends PageObject {
 
-    @FindBy(name = "email")
+    @FindBy(xpath = "//input[@type='email']")
     private WebElementFacade emailInput;
 
-    @FindBy(name = "password")
+    @FindBy(xpath = "//input[@type='password']")
     private WebElementFacade passwordInput;
 
-    @FindBy(id = "submit")
+    @FindBy(xpath = "//button[@type='submit']")
     private WebElementFacade loginbutton;
 
     public void launch(String url) {
@@ -23,24 +23,19 @@ public class LoginPage extends PageObject {
     }
 
     public void enterEmail(String email) {
-        emailInput.waitUntilVisible();
-        emailInput.sendKeys(email);
+        emailInput.waitUntilVisible().sendKeys(email);
     }
 
     public void enterPassword(String password) {
-        passwordInput.waitUntilVisible();
-        passwordInput.sendKeys(password);
+        passwordInput.waitUntilVisible().sendKeys(password);
     }
 
     public void submit() {
-        loginbutton.waitUntilVisible();
-        loginbutton.waitUntilClickable();
-        loginbutton.click();
+        loginbutton.waitUntilVisible().waitUntilClickable().click();
     }
 
     public boolean isLoginPageVisible() {
-        loginbutton.waitUntilVisible();
-        return loginbutton.isVisible();
+        return loginbutton.waitUntilVisible().isVisible();
     }
 
 }

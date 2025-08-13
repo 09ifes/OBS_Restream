@@ -9,8 +9,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import net.serenitybdd.core.Serenity;
 
 
-
-
 public class GlobalActionMethods {
     public void editOBSJsonFile() {
         ObjectMapper mapper = new ObjectMapper();
