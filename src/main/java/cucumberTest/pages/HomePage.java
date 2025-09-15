@@ -4,6 +4,7 @@ import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
+import static java.time.Duration.ofSeconds;
 import java.util.List;
 
 public class HomePage extends PageObject {
@@ -28,7 +29,7 @@ public class HomePage extends PageObject {
     private WebElementFacade doneButton;
 
     public boolean isHomePageVisible() {
-        return homepageLogo.waitUntilVisible().isVisible();
+       return homepageLogo.withTimeoutOf(ofSeconds(30)).waitUntilVisible().isVisible();
     }
 
     public boolean isRTMPSettingsTitleVisible() {

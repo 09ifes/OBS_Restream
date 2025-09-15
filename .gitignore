@@ -1,7 +1,7 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/test/**/target/
-!**/src/test/**/target/
+!**/src/main/**/target/
+!**/src/main/**/target/
 credentials/
 
 ### IntelliJ IDEA ###
@@ -29,8 +29,8 @@ credentials/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/test/**/build/
-!**/src/test/**/build/
+!**/src/main/**/build/
+!**/src/main/**/build/
 
 ### VS Code ###
 .vscode/

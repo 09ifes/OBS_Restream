@@ -15,7 +15,7 @@ public class Configuration {
 
     public static String get(String string) {
         try {
-            config.load(new FileInputStream("C:/OBS_Restream/src/test/resources/credentials/login.properties"));
+            config.load(new FileInputStream("C:/OBS_Restream/src/main/resources/credentials/login.properties"));
         }
         catch (Exception e){
             LOGGER.error(e.getMessage());

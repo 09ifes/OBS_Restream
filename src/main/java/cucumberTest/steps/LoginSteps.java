@@ -1,7 +1,6 @@
 package cucumberTest.steps;
 import cucumberTest.stepLib.checks.HomepageCheckMethods;
 import io.cucumber.java.en.Given;
-import net.thucydides.core.annotations.Steps;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import cucumberTest.stepLib.actions.LoginActionMethods;

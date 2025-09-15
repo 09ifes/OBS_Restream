@@ -32,9 +32,7 @@ public class EditEventPage extends CreateEventPage {
 
     public boolean isEditEventPageOpen() {
         editEventHeading.waitUntilVisible().isVisible();
-        editButton.waitUntilVisible().isVisible();
-        return true;
+        return editButton.waitUntilVisible().isVisible();
     }
-
 
 }

@@ -1,6 +1,6 @@
 package cucumberTest.stepLib.actions;
 
-import java.io.*;
+import java.io.File;
 
 
 import java.util.Map;

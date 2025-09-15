@@ -33,5 +33,4 @@ public class CreateEditEventSteps {
     public void theCreatedEventShouldBeDisplayedOnTheHomepage() {
         homepageCheckMethods.checkEventsListContainsNewEvent();
     }
-
 }

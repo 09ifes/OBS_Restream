@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class GlobalCheckMethods {
     public void checkEditedStreamKey() {
         ObjectMapper mapper = new ObjectMapper();
-        Map<String, Object> userData = null;
+        Map<String, Object> userData;
         File jsonFile = new File("C:/Users/samue/AppData/Roaming/obs-studio/basic/profiles/Untitled/service.json");
         try {
             userData = mapper.readValue(

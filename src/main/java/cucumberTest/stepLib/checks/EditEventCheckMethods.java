@@ -1,7 +1,7 @@
 package cucumberTest.stepLib.checks;
 
 import cucumberTest.pages.EditEventPage;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
 

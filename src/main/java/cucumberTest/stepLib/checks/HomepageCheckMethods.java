@@ -5,11 +5,11 @@ import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.WebElementFacade;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class HomepageCheckMethods {
 
-    private HomePage homePage;
+    private HomePage homePage = getPages().get(HomePage.class);
 
     public void checkHomePageIsDisplayed() {
         assertTrue("Expected homepage to display", homePage.isHomePageVisible());

@@ -4,27 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Refactorings">
+    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Refactorings + file moves">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/CucumberTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/MainTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/CreateEventPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/EditEventPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/EditEventActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/LoginActionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/CreateAnEventPageCheckMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/EditEventCheckMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/LoginChecksMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/CreateEditEventSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/GlobalSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/HomepageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/msedgedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/set_OBS_stream_key.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/serenity.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/CreateEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/CreateEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/EditEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/EditEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/LoginActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/LoginActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/EditEventCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/EditEventCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/LoginChecksMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/LoginChecksMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/CreateEventPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/EditEventPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/EditEventActionMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/LoginActionMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/CreateAnEventPageCheckMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/EditEventCheckMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/LoginChecksMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/CreateEditEventSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/credentials/login.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +97,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/OBS_Restream/src/test/resources/credentials&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OBS_Restream/src/main/resources/credentials&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -73,6 +111,8 @@
       <recent name="C:\OBS_Restream\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OBS_Restream\src\test\java\cucumberTest" />
+      <recent name="C:\OBS_Restream\src\main" />
       <recent name="C:\OBS_Restream\src\test\resources\drivers" />
       <recent name="C:\OBS_Restream\src\test\resources\features" />
       <recent name="C:\OBS_Restream\src\test\resources" />
@@ -82,10 +122,10 @@
       <recent name="cucmberTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Edit an event">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Create an event">
     <configuration name="Scenario: Create an event" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/set_OBS_stream_key.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors cucumberTest" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OBS_Restream" />
@@ -105,7 +145,7 @@
     </configuration>
     <configuration name="Scenario: Edit an event" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/set_OBS_stream_key.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OBS_Restream" />
       <option name="NAME_FILTER" value="^Edit an event$" />
@@ -125,7 +165,7 @@
     </configuration>
     <configuration name="Scenario: Set OBS Stream key" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/set_OBS_stream_key.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/set_OBS_stream_key.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OBS_Restream" />
       <option name="NAME_FILTER" value="^Set OBS Stream key$" />
@@ -217,9 +257,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Create an event" />
         <item itemvalue="Cucumber Java.Scenario: Edit an event" />
         <item itemvalue="JUnit.CucumberTestSuite" />
-        <item itemvalue="Cucumber Java.Scenario: Create an event" />
         <item itemvalue="Cucumber Java.Scenario: Set OBS Stream key" />
         <item itemvalue="TestNG.timesheetFiller" />
       </list>
@@ -339,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1754951670086</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Refactorings">
+      <created>1755127904857</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755127904857</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,40 +415,31 @@
     <MESSAGE value="implement methods and steps" />
     <MESSAGE value="Create event page element" />
     <MESSAGE value="Refactorings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactorings" />
+    <MESSAGE value="Refactorings + file moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorings + file moves" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/LoginActionMethods.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
           <line>22</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
           <line>14</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cucumberTest/pages/HomePage.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
