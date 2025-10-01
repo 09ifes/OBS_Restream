@@ -27,6 +27,24 @@ pipeline {
         ])
       }
     }
+
+    stage('Inject Credentials') {
+      steps {
+        withCredentials([usernamePassword(credentialsId: 'restream-login', usernameVariable: 'EMAIL', passwordVariable: 'PASSWORD')]) {
+          writeFile file: 'login.properties', text: """
+            email=${EMAIL}
+            password=${PASSWORD}
+          """
+        }
+      }
+    }
+
+    stage('Run Tests') {
+      steps {
+        sh 'mvn verify -Dlogin.config=login.properties'
+      }
+    }
+
   }
 
   post {

@@ -11,9 +11,5 @@ import org.junit.runner.RunWith;
                  glue = {"cucumberTest.steps"}
 )
 public class CucumberTestSuite {
-//    public static void config() {
-//       // System.setProperty("webdriver.chrome.driver", "C:/OBS_Restream/src/main/resources/drivers/chromedriver.exe");
-//        WebDriverManager.chromedriver().setup();
-//    }
 }
 
