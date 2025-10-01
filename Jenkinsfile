@@ -1,6 +1,11 @@
 pipeline {
   agent any
 
+  tools {
+    maven 'Maven_3.8.1'
+    jdk 'Java_11'
+   }
+
   environment {
     MAVEN_OPTS = "-Xmx1024m"
   }
