@@ -3,7 +3,7 @@ pipeline {
 
   tools {
     maven 'Maven_3.8.1'
-    jdk 'Java_11'
+    jdk 'java_11'
    }
 
   environment {
