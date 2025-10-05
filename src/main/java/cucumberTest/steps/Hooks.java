@@ -7,7 +7,7 @@ public class Hooks {
 
     @Before
     public void setupDriver() {
-       // WebDriverManager.chromedriver().setup();
-        WebDriverManager.edgedriver().setup();
+        WebDriverManager.chromedriver().setup();
+       // WebDriverManager.edgedriver().setup();
     }
 }
