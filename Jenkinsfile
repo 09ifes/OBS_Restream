@@ -4,7 +4,7 @@ pipeline {
   tools {
     maven 'Maven_3.8.1'
     jdk 'java_11'
-   }
+  }
 
   environment {
     MAVEN_OPTS = "-Xmx1024m"
@@ -14,22 +14,6 @@ pipeline {
     stage('Checkout') {
       steps {
         checkout scm
-      }
-    }
-
-    stage('Build & Test') {
-      steps {
-        bat 'mvn clean verify'
-      }
-    }
-
-    stage('Publish Serenity Report') {
-      steps {
-        publishHTML(target: [
-          reportDir: 'target/site/serenity',
-          reportFiles: 'index.html',
-          reportName: 'Serenity Report'
-        ])
       }
     }
 
@@ -46,10 +30,21 @@ pipeline {
 
     stage('Run Tests') {
       steps {
-        sh 'mvn verify -Dlogin.config=login.properties'
+        catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+          bat 'mvn clean verify -Dlogin.config=login.properties'
+        }
       }
     }
 
+    stage('Publish Serenity Report') {
+      steps {
+        publishHTML(target: [
+          reportDir: 'target/site/serenity',
+          reportFiles: 'index.html',
+          reportName: 'Serenity Report'
+        ])
+      }
+    }
   }
 
   post {
