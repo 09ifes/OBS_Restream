@@ -10,12 +10,21 @@ pipeline {
     MAVEN_OPTS = "-Xmx1024m"
   }
 
+
+
   stages {
     stage('Checkout') {
       steps {
         checkout scm
       }
     }
+
+stage('Clean Workspace') {
+  steps {
+    deleteDir()
+  }
+}
+
 
     stage('Inject Credentials') {
       steps {
