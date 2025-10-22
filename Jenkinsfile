@@ -13,6 +13,12 @@ pipeline {
 
 
   stages {
+
+stage('Debug Workspace') {
+  steps {
+    bat 'dir /s /b'
+  }
+}
     stage('Checkout') {
       steps {
         checkout scm
