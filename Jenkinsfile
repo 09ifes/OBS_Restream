@@ -41,7 +41,7 @@ stage('Clean Workspace') {
 stage('Run Tests') {
   steps {
     catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-      dir('restream-tests') {
+      dir('OBS_Restream') {
         bat 'mvn clean verify -Dlogin.config=login.properties'
       }
     }
