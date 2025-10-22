@@ -14,22 +14,17 @@ pipeline {
 
   stages {
 
-stage('Debug Workspace') {
-  steps {
-    bat 'dir /s /b'
-  }
-}
-    stage('Checkout') {
-      steps {
-        checkout scm
-      }
-    }
-
 stage('Clean Workspace') {
   steps {
     deleteDir()
   }
 }
+
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
 
 
     stage('Inject Credentials') {
@@ -47,9 +42,7 @@ stage('Clean Workspace') {
 stage('Run Tests') {
   steps {
     catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-      dir('OBS_Restream') {
         bat 'mvn clean verify -Dlogin.config=login.properties'
-      }
     }
   }
 }
