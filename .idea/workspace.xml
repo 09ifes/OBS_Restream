@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Fix jenkinsfile">
+    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Change scope from main to test">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -423,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1760750127789</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Change scope from main to test">
+      <created>1761098103561</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1761098103561</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +463,8 @@
     <MESSAGE value="Fix Jenkinsfile" />
     <MESSAGE value="Fixes" />
     <MESSAGE value="Fix jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix jenkinsfile" />
+    <MESSAGE value="Change scope from main to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change scope from main to test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
