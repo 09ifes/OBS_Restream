@@ -5,37 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Change scope from main to test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/CucumberTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/MainTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/CreateEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/CreateEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/EditEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/EditEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/CreateEventPageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/EditEventActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/EditEventActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/GlobalActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/HomepageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/actions/LoginActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/actions/LoginActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/CreateAnEventPageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/CreateAnEventPageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/EditEventCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/EditEventCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/stepLib/checks/LoginChecksMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/LoginChecksMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/CreateEditEventSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/CreateEditEventSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/GlobalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers/msedgedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/msedgedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/set_OBS_stream_key.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1761098103561</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Change scope from main to test">
+      <created>1761099062307</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1761099062308</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -37,13 +37,16 @@ stage('Clean Workspace') {
       }
     }
 
-    stage('Run Tests') {
-      steps {
-        catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-          bat 'mvn clean verify -Dlogin.config=login.properties'
-        }
+
+stage('Run Tests') {
+  steps {
+    catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+      dir('restream-tests') {
+        bat 'mvn clean verify -Dlogin.config=login.properties'
       }
     }
+  }
+}
 
     stage('Publish Serenity Report') {
       steps {
