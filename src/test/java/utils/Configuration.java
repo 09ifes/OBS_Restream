@@ -11,7 +11,7 @@ public class Configuration {
 
     private static final Properties config = new Properties();
     private static final Logger LOGGER = LoggerFactory.getLogger(Configuration.class);
-    private static final String DEFAULT_PATH = "src/main/resources/credentials/login.properties";
+    private static final String DEFAULT_PATH = "src/test/resources/credentials/login.properties";
 
     static {
         File configFile = new File(DEFAULT_PATH);
