@@ -1,4 +1,4 @@
-package cucumberTest.pages;
+package cucumberTest.pages.obs;
 
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.annotations.findby.FindBy;
