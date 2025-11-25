@@ -1,10 +1,10 @@
-package cucumberTest.steps;
-import cucumberTest.stepLib.checks.HomepageCheckMethods;
+package cucumberTest.steps.obs;
+import cucumberTest.stepLib.obs.checks.HomepageCheckMethods;
 import io.cucumber.java.en.Given;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import cucumberTest.stepLib.actions.LoginActionMethods;
-import cucumberTest.stepLib.checks.LoginChecksMethods;
+import cucumberTest.stepLib.obs.actions.LoginActionMethods;
+import cucumberTest.stepLib.obs.checks.LoginChecksMethods;
 
 public class LoginSteps {
 

@@ -1,10 +1,10 @@
-package cucumberTest.steps;
+package cucumberTest.steps.obs;
 
-import cucumberTest.stepLib.actions.CreateEventPageActionMethods;
-import cucumberTest.stepLib.actions.EditEventActionMethods;
-import cucumberTest.stepLib.actions.HomepageActionMethods;
-import cucumberTest.stepLib.checks.EditEventCheckMethods;
-import cucumberTest.stepLib.checks.HomepageCheckMethods;
+import cucumberTest.stepLib.obs.actions.CreateEventPageActionMethods;
+import cucumberTest.stepLib.obs.actions.EditEventActionMethods;
+import cucumberTest.stepLib.obs.actions.HomepageActionMethods;
+import cucumberTest.stepLib.obs.checks.EditEventCheckMethods;
+import cucumberTest.stepLib.obs.checks.HomepageCheckMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 

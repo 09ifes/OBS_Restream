@@ -1,9 +1,9 @@
-package cucumberTest.steps;
+package cucumberTest.steps.obs;
 
-import cucumberTest.stepLib.checks.CreateAnEventPageCheckMethods;
+import cucumberTest.stepLib.obs.checks.CreateAnEventPageCheckMethods;
 import io.cucumber.java.en.And;
-import cucumberTest.stepLib.actions.HomepageActionMethods;
-import cucumberTest.stepLib.checks.HomepageCheckMethods;
+import cucumberTest.stepLib.obs.actions.HomepageActionMethods;
+import cucumberTest.stepLib.obs.checks.HomepageCheckMethods;
 
 public class HomepageSteps {
 

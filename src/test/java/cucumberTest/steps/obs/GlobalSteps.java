@@ -1,7 +1,7 @@
-package cucumberTest.steps;
+package cucumberTest.steps.obs;
 
-import cucumberTest.stepLib.actions.GlobalActionMethods;
-import cucumberTest.stepLib.checks.GlobalCheckMethods;
+import cucumberTest.stepLib.obs.actions.GlobalActionMethods;
+import cucumberTest.stepLib.obs.checks.GlobalCheckMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
