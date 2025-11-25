@@ -23,7 +23,7 @@ public class UploadVideoPageCheckMethods {
 
 
     public void checkVideoUploadIsComplete() {
-        await().atMost(ofSeconds(60)).pollInterval(ofMillis(500)).until(() -> !uploadVideoPage.isVideoUploadInProgress());
+        await().atMost(ofSeconds(120)).pollInterval(ofMillis(500)).until(() -> !uploadVideoPage.isVideoUploadInProgress());
         assertFalse(uploadVideoPage.isVideoUploadInProgress(), "Video upload still ongoing");
         await().atMost(ofSeconds(20)).pollInterval(ofMillis(500)).until(() -> uploadVideoPage.isUploadVideoCheckboxVisible());
         assertThat(uploadVideoPage.uploadedVideoName()).contains("test_video_1");

@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Implement action and check methods">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/streamable/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/streamable/UploadVideoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Steamable/video_uploads.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/actions/UploadVideoPageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/actions/UploadVideoPageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/CreateEditEventSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/CreateEditEventSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/GlobalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/HomepageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/OBS_Restream/set_OBS_stream_key.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-    </list>
+    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Refactorings" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -507,7 +492,21 @@
       <option name="project" value="LOCAL" />
       <updated>1763701511930</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Implement steps">
+      <created>1764037523541</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1764037523541</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Refactorings">
+      <created>1764037562137</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1764037562137</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +534,6 @@
     <MESSAGE value="added configuration and properties" />
     <MESSAGE value="implement methods and steps" />
     <MESSAGE value="Create event page element" />
-    <MESSAGE value="Refactorings" />
     <MESSAGE value="Refactorings + file moves" />
     <MESSAGE value="Fix Jenkinsfile" />
     <MESSAGE value="Fixes" />
@@ -543,7 +541,9 @@
     <MESSAGE value="Change scope from main to test" />
     <MESSAGE value="Implement pages for streamable site" />
     <MESSAGE value="Implement action and check methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement action and check methods" />
+    <MESSAGE value="Implement steps" />
+    <MESSAGE value="Refactorings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
