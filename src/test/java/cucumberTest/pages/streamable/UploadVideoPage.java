@@ -1,7 +1,9 @@
 package cucumberTest.pages.streamable;
 
+import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
+import org.openqa.selenium.Keys;
 
 import java.nio.file.Paths;
 import java.util.Arrays;
@@ -17,16 +19,22 @@ public class UploadVideoPage extends HomePage{
     private static WebElementFacade uploadVideoThumbnailBox;
     @FindBy(xpath = "//span[@class='rc-checkbox-inner']")
     private static WebElementFacade uploadVideoCheckbox;
+    @FindBy(xpath = "//textarea[@placeholder='Add a title']")
+    private static WebElementFacade uploadedVideoTitle;
+    @FindBy(xpath = "//button[contains(text(),'More')]")
+    private static WebElementFacade moreButton;
+    @FindBy(xpath = "//span[text()='Delete']")
+    private static WebElementFacade deleteOption;
+    @FindBy(xpath = "//button[text()='Delete']")
+    private static WebElementFacade deleteButton;
+
+    @FindBy(xpath = "//p[text()='Are you sure you want to delete']/strong")
+    private static WebElementFacade deleteModal;
 
     private static String FILE_INPUT_LOCATOR = "//input[@type='file']";
 
     public Boolean isOpen() {
         return uploadVideoHeader.waitUntilVisible().isVisible();
-    }
-
-    public void uploadFile() {
-        String videoPath = Paths.get("src/test/resources/testdata/videos/test_video_1.mp4").toAbsolutePath().toString();
-        find(FILE_INPUT_LOCATOR).sendKeys(videoPath);
     }
 
     public Boolean isVideoUploadInProgress() {
@@ -35,6 +43,36 @@ public class UploadVideoPage extends HomePage{
     }
 
     public Boolean isUploadVideoCheckboxVisible() {
-        return uploadVideoCheckbox.waitUntilPresent().isPresent();
+        return uploadVideoCheckbox.isPresent();
     }
+
+    public String uploadedVideoName() {
+        return uploadedVideoTitle.waitUntilVisible().getText();
+    }
+
+    public void uploadFile(String videoPath) {
+         find(FILE_INPUT_LOCATOR).sendKeys(videoPath);
+    }
+
+    public void changeVideoTitle(String videoTitle) {
+        uploadedVideoTitle.waitUntilVisible().clear();
+        uploadedVideoTitle.sendKeys(videoTitle);
+        uploadedVideoTitle.sendKeys(Keys.ENTER);
+    }
+
+    public void clickMoreButton() {
+        moreButton.waitUntilVisible().click();
+    }
+
+    public String deleteVideoModalText() {
+        return deleteModal.waitUntilVisible().getText();
+    }
+
+    public void selectDeleteOption() {
+        deleteOption.waitUntilVisible().click();
+    }
+    public void clickDeleteButton() {
+        deleteButton.waitUntilClickable().click();
+    }
+
 }

@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Change scope from main to test">
+    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Implement action and check methods">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/streamable/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/streamable/UploadVideoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Steamable/video_uploads.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/actions/UploadVideoPageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/actions/UploadVideoPageActionMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/CreateEditEventSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/CreateEditEventSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/GlobalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/GlobalSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/HomepageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/OBS_Restream/set_OBS_stream_key.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +72,18 @@
       <recent name="C:\OBS_Restream\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OBS_Restream\src\test\resources\testdata\videos" />
+      <recent name="C:\OBS_Restream\src\test\resources\features\" />
+      <recent name="C:\OBS_Restream\src\test\resources\features\OBS_Restream" />
       <recent name="C:\OBS_Restream\src\main" />
       <recent name="C:\OBS_Restream\src\test\java\cucumberTest" />
-      <recent name="C:\OBS_Restream\src\test\resources\drivers" />
-      <recent name="C:\OBS_Restream\src\test\resources\features" />
-      <recent name="C:\OBS_Restream\src\test\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="cucmberTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Create an event (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Users can delete uploaded videos">
     <configuration name="Scenario: Create an event (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/set_OBS_stream_key.feature" />
@@ -131,14 +144,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Set OBS Stream key" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Users can delete uploaded videos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/set_OBS_stream_key.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Steamable/video_uploads.feature" />
+      <option name="GLUE" value="cucumberTest.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OBS_Restream" />
-      <option name="NAME_FILTER" value="^Set OBS Stream key$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Set OBS Stream key$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Set OBS Stream key" />
+      <option name="NAME_FILTER" value="^Users can delete uploaded videos$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Users can delete uploaded videos$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Users can delete uploaded videos" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,18 +167,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Users can edit uploaded videos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Steamable/video_uploads.feature" />
+      <option name="GLUE" value="cucumberTest.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="OBS_Restream" />
+      <option name="NAME_FILTER" value="^Users can edit uploaded videos$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Users can edit uploaded videos$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Users can edit uploaded videos" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cucumberTest" />
-      <option name="MAIN_CLASS_NAME" value="cucumberTest.CucumberTestSuite" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Users can upload videos to the site" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Steamable/video_uploads.feature" />
+      <option name="GLUE" value="cucumberTest.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="OBS_Restream" />
+      <option name="NAME_FILTER" value="^Users can upload videos to the site$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Users can upload videos to the site$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Users can upload videos to the site" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="GLUE" value="cucumberTest.steps" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,20 +242,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Users can upload videos to the site" />
+      <item itemvalue="Cucumber Java.Scenario: Users can delete uploaded videos" />
+      <item itemvalue="Cucumber Java.Scenario: Users can edit uploaded videos" />
       <item itemvalue="Cucumber Java.Scenario: Create an event (1)" />
       <item itemvalue="Cucumber Java.Scenario: Create an event" />
       <item itemvalue="Cucumber Java.Scenario: Edit an event" />
-      <item itemvalue="Cucumber Java.Scenario: Set OBS Stream key" />
-      <item itemvalue="JUnit.CucumberTestSuite" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Users can delete uploaded videos" />
+        <item itemvalue="Cucumber Java.Scenario: Users can edit uploaded videos" />
         <item itemvalue="Cucumber Java.Scenario: Create an event (1)" />
         <item itemvalue="Cucumber Java.Scenario: Create an event" />
         <item itemvalue="Cucumber Java.Scenario: Edit an event" />
-        <item itemvalue="JUnit.CucumberTestSuite" />
-        <item itemvalue="Cucumber Java.Scenario: Set OBS Stream key" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +465,49 @@
       <option name="project" value="LOCAL" />
       <updated>1761099062308</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Change scope from main to test">
+      <created>1761100310450</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1761100310450</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Change scope from main to test">
+      <created>1761100707431</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1761100707431</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Change scope from main to test">
+      <created>1761102589402</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1761102589402</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Change scope from main to test">
+      <created>1761103151336</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1761103151336</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implement pages for streamable site">
+      <created>1763701346851</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1763701346851</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Implement action and check methods">
+      <created>1763701511930</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1763701511930</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,28 +541,30 @@
     <MESSAGE value="Fixes" />
     <MESSAGE value="Fix jenkinsfile" />
     <MESSAGE value="Change scope from main to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change scope from main to test" />
+    <MESSAGE value="Implement pages for streamable site" />
+    <MESSAGE value="Implement action and check methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement action and check methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/GlobalCheckMethods.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/GlobalCheckMethods.java</url>
           <line>20</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/HomepageCheckMethods.java</url>
           <line>22</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/checks/HomepageCheckMethods.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/HomepageCheckMethods.java</url>
           <line>14</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/HomePage.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/HomePage.java</url>
           <line>31</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -470,11 +572,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/utils/Configuration.java</url>
           <line>20</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/steps/LoginSteps.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/3.6.21/serenity-core-3.6.21.jar!/net/serenitybdd/core/Serenity.class</url>
@@ -486,7 +583,58 @@
           <line>287</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/LoginPage.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/LoginPage.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/LoginPage.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java</url>
+          <line>27</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java</url>
+          <line>36</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OBS_Restream$Scenario__Users_can_upload_videos_to_the_site.ic" NAME="Scenario: Users can upload videos to the site Coverage Results" MODIFIED="1763430988382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>

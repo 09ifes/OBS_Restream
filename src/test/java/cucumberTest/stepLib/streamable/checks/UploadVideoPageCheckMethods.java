@@ -1,14 +1,16 @@
 package cucumberTest.stepLib.streamable.checks;
 
 import cucumberTest.pages.streamable.UploadVideoPage;
-import lombok.SneakyThrows;
 
 import java.time.Duration;
 
+import static java.time.Duration.ofMillis;
+import static java.time.Duration.ofSeconds;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
+import static org.apache.commons.io.FileUtils.waitFor;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.awaitility.Awaitility.await;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class UploadVideoPageCheckMethods {
@@ -21,10 +23,19 @@ public class UploadVideoPageCheckMethods {
 
 
     public void checkVideoUploadIsComplete() {
-        await().atMost(Duration.ofSeconds(60)).pollInterval(Duration.ofMillis(500)).until(() ->
-                !uploadVideoPage.isVideoUploadInProgress());
+        await().atMost(ofSeconds(60)).pollInterval(ofMillis(500)).until(() -> !uploadVideoPage.isVideoUploadInProgress());
         assertFalse(uploadVideoPage.isVideoUploadInProgress(), "Video upload still ongoing");
-        assertTrue(uploadVideoPage.isUploadVideoCheckboxVisible(), "Video checkbox not visible");
+        await().atMost(ofSeconds(20)).pollInterval(ofMillis(500)).until(() -> uploadVideoPage.isUploadVideoCheckboxVisible());
+        assertThat(uploadVideoPage.uploadedVideoName()).contains("test_video_1");
     }
+
+    public void checkVideoHasNewTitle(String videoTitle) {
+        assertTrue(uploadVideoPage.uploadedVideoName().contains(videoTitle));
+    }
+
+    public void checkUploadedVideoIsDeleted() {
+        await().atMost(ofSeconds(10)).pollInterval(ofMillis(500)).until(() -> !uploadVideoPage.isUploadVideoCheckboxVisible());
+    }
+
 
 }
