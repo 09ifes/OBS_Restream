@@ -34,10 +34,10 @@ public class HomePage extends PageObject {
         signUpButton.waitUntilClickable().click();
     }
 
-    public void clickToolsButton() {toolsButton.waitUntilClickable().click();}
+    public void clickToolsButton() {toolsButton.waitUntilVisible().click();}
 
     public void clickUploadVideoButton() {
-        uploadVideoButton.waitUntilClickable().click();
+        uploadVideoButton.waitUntilVisible().click();
     }
 
     public void openUploadVideoSection() {
