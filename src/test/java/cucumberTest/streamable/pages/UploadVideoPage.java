@@ -1,11 +1,9 @@
-package cucumberTest.pages.streamable;
+package cucumberTest.streamable.pages;
 
-import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.Keys;
 
-import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 

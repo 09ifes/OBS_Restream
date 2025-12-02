@@ -1,7 +1,7 @@
-package cucumberTest.steps.streamable;
+package cucumberTest.streamable.steps;
 
-import cucumberTest.stepLib.streamable.actions.UploadVideoPageActionMethods;
-import cucumberTest.stepLib.streamable.checks.UploadVideoPageCheckMethods;
+import cucumberTest.streamable.stepLib.actions.UploadVideoPageActionMethods;
+import cucumberTest.streamable.stepLib.checks.UploadVideoPageCheckMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 

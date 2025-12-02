@@ -1,6 +1,6 @@
-package cucumberTest.stepLib.streamable.actions;
+package cucumberTest.streamable.stepLib.actions;
 
-import cucumberTest.pages.streamable.UploadVideoPage;
+import cucumberTest.streamable.pages.UploadVideoPage;
 import org.assertj.core.api.Fail;
 
 import java.nio.file.Paths;

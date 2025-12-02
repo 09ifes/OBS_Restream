@@ -1,13 +1,10 @@
-package cucumberTest.stepLib.streamable.checks;
+package cucumberTest.streamable.stepLib.checks;
 
-import cucumberTest.pages.streamable.UploadVideoPage;
-
-import java.time.Duration;
+import cucumberTest.streamable.pages.UploadVideoPage;
 
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
-import static org.apache.commons.io.FileUtils.waitFor;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.awaitility.Awaitility.await;
 import static org.junit.jupiter.api.Assertions.*;
