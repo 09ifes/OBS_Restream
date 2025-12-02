@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="NBA API data retrieval" skipped="0" tests="2" time="7.32" timestamp="2025-12-02 12:47:58"><testcase name="User can verify NBA standings data"/><testcase name="User can verify NBA players data"/></testsuite>

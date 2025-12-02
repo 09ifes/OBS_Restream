@@ -4,54 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="Fixes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/api/model/NbaRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/api/model/NbaStandingsRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/api/stepLib/NbaActionMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/api/stepLib/NbaCheckMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/api/steps/NbaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/SessionVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/NBA_API/NbaApiRequests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/40009921cd6c69ab3b45021e265ba67c5b557a8bbe2c5be894fd722ac7a55e06.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/40009921cd6c69ab3b45021e265ba67c5b557a8bbe2c5be894fd722ac7a55e06.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/40009921cd6c69ab3b45021e265ba67c5b557a8bbe2c5be894fd722ac7a55e06_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/40009921cd6c69ab3b45021e265ba67c5b557a8bbe2c5be894fd722ac7a55e06_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SERENITY-JUNIT-f2d408a920e65be40376fd258c9f5f5bd08ebe17304ad6abd0450e63c4829c46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SERENITY-JUNIT-f2d408a920e65be40376fd258c9f5f5bd08ebe17304ad6abd0450e63c4829c46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/b30d00fd125e5b03a45f9470c5172ba39905109ec46fee3633b5bb8bc55f58be.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/b30d00fd125e5b03a45f9470c5172ba39905109ec46fee3633b5bb8bc55f58be.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/b30d00fd125e5b03a45f9470c5172ba39905109ec46fee3633b5bb8bc55f58be_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/b30d00fd125e5b03a45f9470c5172ba39905109ec46fee3633b5bb8bc55f58be_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/f2d408a920e65be40376fd258c9f5f5bd08ebe17304ad6abd0450e63c4829c46.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/f2d408a920e65be40376fd258c9f5f5bd08ebe17304ad6abd0450e63c4829c46.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/f2d408a920e65be40376fd258c9f5f5bd08ebe17304ad6abd0450e63c4829c46_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/f2d408a920e65be40376fd258c9f5f5bd08ebe17304ad6abd0450e63c4829c46_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/CucumberTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/CreateEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/pages/CreateEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/EditEventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/pages/EditEventPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/obs/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/EditVideoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/pages/EditVideoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/pages/streamable/UploadVideoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/pages/UploadVideoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/actions/CreateEventPageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/actions/CreateEventPageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/actions/EditEventActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/actions/EditEventActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/actions/GlobalActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/actions/GlobalActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/actions/HomepageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/actions/HomepageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/actions/LoginActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/actions/LoginActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/CreateAnEventPageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/checks/CreateAnEventPageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/EditEventCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/checks/EditEventCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/GlobalCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/checks/GlobalCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/HomepageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/checks/HomepageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/obs/checks/LoginChecksMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/stepLib/checks/LoginChecksMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/actions/HomePageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/stepLib/actions/HomePageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/actions/UploadVideoPageActionMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/stepLib/actions/UploadVideoPageActionMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/HomePageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/stepLib/checks/HomePageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/stepLib/streamable/checks/UploadVideoPageCheckMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/stepLib/checks/UploadVideoPageCheckMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/common/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/CreateEditEventSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/steps/CreateEditEventSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/GlobalSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/steps/GlobalSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/steps/HomepageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/obs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/obs/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/streamable/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/steps/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumberTest/steps/streamable/UploadVideoSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumberTest/streamable/steps/UploadVideoSteps.java" afterDir="false" />
-    </list>
+    <list default="true" id="a730dc55-6724-4057-986d-b2a1b210b3d7" name="Changes" comment="API scenarios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -618,7 +571,35 @@
       <option name="project" value="LOCAL" />
       <updated>1764114084999</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Refactorings">
+      <created>1764636509243</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1764636509244</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Refactorings">
+      <created>1764636547029</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1764636547029</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Implement API methods and DTO">
+      <created>1764636616200</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1764636616200</updated>
+    </task>
+    <task id="LOCAL-00048" summary="API scenarios">
+      <created>1764636640663</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1764636640663</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -654,10 +635,12 @@
     <MESSAGE value="Implement pages for streamable site" />
     <MESSAGE value="Implement action and check methods" />
     <MESSAGE value="Implement steps" />
-    <MESSAGE value="Refactorings" />
     <MESSAGE value="Fixes + sample serenity report" />
     <MESSAGE value="Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
+    <MESSAGE value="Refactorings" />
+    <MESSAGE value="Implement API methods and DTO" />
+    <MESSAGE value="API scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="API scenarios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

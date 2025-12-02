@@ -1,109 +1,106 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="3" failures="0" name="Set OBS Stream key" skipped="0" tests="3" time="112.36" timestamp="2025-11-25 03:05:01"><testcase name="Create an event"><error message="Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="3" failures="0" name="Set OBS Stream key" skipped="0" tests="3" time="126.81" timestamp="2025-12-02 12:48:07"><testcase name="Create an event"><error message="Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: unknown
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for HomePage.homepageLogo to
-    be displayed (tried for 30 second(s) with 100 milliseconds interval)
-    Build info: version: '4.12.0', revision: '249f2a7d1b*'
-    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-    Driver info: driver.version: unknown
-    Build info: version: '4.12.0', revision: '249f2a7d1b*'
-    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-    Driver info: driver.version: unknown&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.pages.HomePage.isHomePageVisible(HomePage.java:32)&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.stepLib.checks.HomepageCheckMethods.checkHomePageIsDisplayed(HomepageCheckMethods.java:15)&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.steps.LoginSteps.loginToRestream(LoginSteps.java:25)&#13;
-    io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
-    io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
-    io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
-    io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
-    io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
-    io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
-    io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
-    io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
-    io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
-    io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
-    io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
-    io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
-    io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
-    io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
-    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
-    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
-    io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
-    io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
-    io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.pages.HomePage.isHomePageVisible(HomePage.java:32)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.stepLib.checks.HomepageCheckMethods.checkHomePageIsDisplayed(HomepageCheckMethods.java:15)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.steps.LoginSteps.loginToRestream(LoginSteps.java:26)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
 </system-err></testcase><testcase name="Edit an event"><error message="Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: unknown
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for HomePage.homepageLogo to
-    be displayed (tried for 30 second(s) with 100 milliseconds interval)
-    Build info: version: '4.12.0', revision: '249f2a7d1b*'
-    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-    Driver info: driver.version: unknown
-    Build info: version: '4.12.0', revision: '249f2a7d1b*'
-    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-    Driver info: driver.version: unknown&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.pages.HomePage.isHomePageVisible(HomePage.java:32)&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.stepLib.checks.HomepageCheckMethods.checkHomePageIsDisplayed(HomepageCheckMethods.java:15)&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.steps.LoginSteps.loginToRestream(LoginSteps.java:25)&#13;
-    io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
-    io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
-    io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
-    io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
-    io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
-    io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
-    io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
-    io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
-    io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
-    io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
-    io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
-    io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
-    io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
-    io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
-    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
-    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
-    io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
-    io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
-    io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.pages.HomePage.isHomePageVisible(HomePage.java:32)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.stepLib.checks.HomepageCheckMethods.checkHomePageIsDisplayed(HomepageCheckMethods.java:15)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.steps.LoginSteps.loginToRestream(LoginSteps.java:26)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
 </system-err></testcase><testcase name="Set OBS Stream key"><error message="Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown&#10;Build info: version: '4.12.0', revision: '249f2a7d1b*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: unknown
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for HomePage.homepageLogo to
-    be displayed (tried for 30 second(s) with 100 milliseconds interval)
-    Build info: version: '4.12.0', revision: '249f2a7d1b*'
-    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-    Driver info: driver.version: unknown
-    Build info: version: '4.12.0', revision: '249f2a7d1b*'
-    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
-    Driver info: driver.version: unknown&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.pages.HomePage.isHomePageVisible(HomePage.java:32)&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.stepLib.checks.HomepageCheckMethods.checkHomePageIsDisplayed(HomepageCheckMethods.java:15)&#13;
-    cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.steps.LoginSteps.loginToRestream(LoginSteps.java:25)&#13;
-    io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
-    io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
-    io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
-    io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
-    io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
-    io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
-    io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
-    io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
-    io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
-    io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
-    io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
-    io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
-    io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
-    io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
-    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
-    io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
-    io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
-    io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
-    io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for HomePage.homepageLogo to be displayed (tried for 30 second(s) with 100 milliseconds interval)
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: driver.version: unknown&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.pages.HomePage.isHomePageVisible(HomePage.java:32)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.stepLib.checks.HomepageCheckMethods.checkHomePageIsDisplayed(HomepageCheckMethods.java:15)&#13;
+cucumber.starter@1.0.0-SNAPSHOT/cucumberTest.obs.steps.LoginSteps.loginToRestream(LoginSteps.java:26)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
 </system-err></testcase></testsuite>
