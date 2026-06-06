@@ -42,7 +42,7 @@ stage('Clean Workspace') {
 stage('Run Tests') {
   steps {
     catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-        bat 'mvn clean verify -Dlogin.config=login.properties'
+        sh 'mvn clean verify -Dlogin.config=login.properties'
     }
   }
 }
