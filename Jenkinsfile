@@ -47,6 +47,12 @@ stage('Run Tests') {
   }
 }
 
+    stage('Aggregate Serenity Report') {
+  steps {
+    sh 'mvn serenity:aggregate'
+  }
+}
+
     stage('Publish Serenity Report') {
       steps {
         publishHTML(target: [
