@@ -63,6 +63,7 @@ stage('Run Tests') {
     }
   }
 }
+  }
 
   post {
     always {
@@ -70,5 +71,5 @@ stage('Run Tests') {
       junit 'target/failsafe-reports/*.xml'
     }
   }
-}
+
 }
