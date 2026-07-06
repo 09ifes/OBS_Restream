@@ -11,7 +11,6 @@ pipeline {
   }
 
 
-
   stages {
 
 stage('Clean Workspace') {
@@ -71,4 +70,5 @@ stage('Run Tests') {
       junit 'target/failsafe-reports/*.xml'
     }
   }
+}
 }
