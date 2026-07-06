@@ -60,7 +60,8 @@ stage('Run Tests') {
         reportName: 'Serenity Report',
         keepAll: true,
         alwaysLinkToLastBuild: true,
-        allowMissing: false
+        allowMissing: false,
+        useWrapper: false
       ])
     }
   }
