@@ -56,7 +56,7 @@ stage('Run Tests') {
   steps {
     script {
       publishHTML(target: [
-        reportDir: 'OBS_Restream/target/site/serenity',
+        reportDir: 'target/site/serenity',
         reportFiles: 'index.html',
         reportName: 'Serenity Report',
       ])
