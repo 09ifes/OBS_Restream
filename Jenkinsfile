@@ -54,15 +54,16 @@ stage('Run Tests') {
 }
 
     stage('Publish Serenity Report') {
-      steps {
-        publishHTML(target: [
-          reportDir: 'target/site/serenity',
-          reportFiles: 'index.html',
-          reportName: 'Serenity Report'
-        ])
-      }
+  steps {
+    script {
+      publishHTML(target: [
+        reportDir: 'OBS_Restream/target/site/serenity',
+        reportFiles: 'index.html',
+        reportName: 'Serenity Report',
+      ])
     }
   }
+}
 
   post {
     always {
