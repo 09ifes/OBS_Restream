@@ -54,7 +54,7 @@ stage('Run Tests') {
     stage('Publish Serenity Report') {
   steps {
     script {
-      publishHTML(target: [
+      publishHTML([
         reportDir: 'target/site/serenity',
         reportFiles: 'index.html',
         reportName: 'Serenity_20Report',
