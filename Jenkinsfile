@@ -61,7 +61,7 @@ stage('Run Tests') {
         keepAll: true,
         alwaysLinkToLastBuild: true,
         allowMissing: false,
-        wrapperName: ''
+        wrapperName: '',
         includes: '**/*'
       ])
     }
