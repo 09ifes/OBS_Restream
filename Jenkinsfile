@@ -45,6 +45,12 @@ stage('Run Tests') {
     }
   }
 }
+
+    sh """
+    mkdir -p /var/lib/jenkins/serenity-reports/${BUILD_NUMBER}
+    cp -r target/site/serenity/* /var/lib/jenkins/serenity-reports/${BUILD_NUMBER}/
+"""
+
     stage('Aggregate Serenity Report') {
   steps {
     sh 'mvn serenity:aggregate'
