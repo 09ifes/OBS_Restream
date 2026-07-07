@@ -3,13 +3,12 @@ pipeline {
 
   tools {
     maven 'Maven_3.8.1'
-    jdk 'java_11'
+    jdk 'java_17'
   }
 
   environment {
     MAVEN_OPTS = "-Xmx1024m"
   }
-
 
 
   stages {
@@ -42,20 +41,32 @@ stage('Clean Workspace') {
 stage('Run Tests') {
   steps {
     catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
-        bat 'mvn clean verify -Dlogin.config=login.properties'
+        sh 'mvn clean verify -Dlogin.config=login.properties'
     }
+  }
+}
+    stage('Aggregate Serenity Report') {
+  steps {
+    sh 'mvn serenity:aggregate'
   }
 }
 
     stage('Publish Serenity Report') {
-      steps {
-        publishHTML(target: [
-          reportDir: 'target/site/serenity',
-          reportFiles: 'index.html',
-          reportName: 'Serenity Report'
-        ])
-      }
+  steps {
+    script {
+      publishHTML(target: [
+        reportDir: 'target/site/serenity',
+        reportFiles: 'index.html',
+        reportName: 'Serenity_20Report',
+        keepAll: true,
+        alwaysLinkToLastBuild: true,
+        allowMissing: false,
+        wrapperName: '',
+        includes: '**/*'
+      ])
     }
+  }
+}
   }
 
   post {
@@ -64,4 +75,5 @@ stage('Run Tests') {
       junit 'target/failsafe-reports/*.xml'
     }
   }
+
 }
