@@ -57,11 +57,12 @@ stage('Run Tests') {
       publishHTML(target: [
         reportDir: 'target/site/serenity',
         reportFiles: 'index.html',
-        reportName: 'Serenity Report',
+        reportName: 'Serenity_20Report',
         keepAll: true,
         alwaysLinkToLastBuild: true,
         allowMissing: false,
-        useWrapper: false
+        useWrapper: false,
+        includes: '**/*'
       ])
     }
   }
