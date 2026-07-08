@@ -61,6 +61,8 @@ stage('Run Tests') {
             def url = "https://samueljenkins.servemp3.com/serenity-reports/${BUILD_NUMBER}/index.html"
             echo "Serenity report available at: ${url}"
             currentBuild.description = "Serenity Report: ${url}"
+            def summary = manager.createSummary("info.png")
+            summary.appendText("<a href='${url}'>Open Serenity Report</a>", false)
         }
     }
 }
