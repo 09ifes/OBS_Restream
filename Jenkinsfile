@@ -55,27 +55,14 @@ stage('Run Tests') {
     }
 }
 
-    stage('Aggregate Serenity Report') {
-  steps {
-    sh 'mvn serenity:aggregate'
-  }
-}
-
-    stage('Publish Serenity Report') {
-  steps {
-    script {
-      publishHTML([
-        reportDir: 'target/site/serenity',
-        reportFiles: 'index.html',
-        reportName: 'Serenity_20Report',
-        keepAll: true,
-        alwaysLinkToLastBuild: true,
-        allowMissing: false,
-        wrapperName: '',
-        includes: '**/*'
-      ])
+    stage('Publish Serenity Link') {
+    steps {
+        script {
+            def url = "https://samueljenkins.servemp3.com/serenity-reports/${BUILD_NUMBER}/index.html"
+            echo "Serenity report available at: ${url}"
+            currentBuild.description = "<a href='${url}'>Open Serenity Report</a>"
+        }
     }
-  }
 }
   }
 
