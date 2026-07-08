@@ -60,10 +60,11 @@ stage('Run Tests') {
         script {
             def url = "https://samueljenkins.servemp3.com/serenity-reports/${BUILD_NUMBER}/index.html"
             echo "Serenity report available at: ${url}"
-            currentBuild.description = "<a href='${url}'>Open Serenity Report</a>"
+            currentBuild.description = "Serenity Report: ${url}"
         }
     }
 }
+
   }
 
   post {
